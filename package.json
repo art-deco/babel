@@ -1,5 +1,5 @@
 {
-  "name": "@artdeco/babel",
+  "name": "shmable",
   "version": "0.0.0-pre",
   "description": "Preview Of The Babel Bug.",
   "main": "build/index.js",

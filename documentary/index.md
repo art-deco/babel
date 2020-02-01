@@ -1,11 +1,11 @@
-# @artdeco/babel
+# shmable
 
-%NPM: @artdeco/babel%
+%NPM: shmable%
 
-`@artdeco/babel` is Preview Of The Babel Bug.
+`shmable` is Preview Of The Babel Bug.
 
 ```sh
-yarn add @artdeco/babel
+yarn add shmable
 ```
 
 ## Table Of Contents

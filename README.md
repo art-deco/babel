@@ -1,11 +1,11 @@
-# @artdeco/babel
+# shmable
 
-[![npm version](https://badge.fury.io/js/@artdeco/babel.svg)](https://www.npmjs.com/package/@artdeco/babel)
+[![npm version](https://badge.fury.io/js/shmable.svg)](https://www.npmjs.com/package/shmable)
 
-`@artdeco/babel` is Preview Of The Babel Bug.
+`shmable` is Preview Of The Babel Bug.
 
 ```sh
-yarn add @artdeco/babel
+yarn add shmable
 ```
 
 ## Table Of Contents
@@ -26,7 +26,7 @@ yarn add @artdeco/babel
 The package is available by importing its default function:
 
 ```js
-import babel from '@artdeco/babel'
+import babel from 'shmable'
 ```
 
 <p align="center"><a href="#table-of-contents">
@@ -47,7 +47,7 @@ __<a name="type-config">`Config`</a>__: Options for the program.
 | text      | <em>string</em>  | A text to return. | -       |
 
 ```js
-import babel from '@artdeco/babel'
+import babel from 'shmable'
 
 (async () => {
   const res = await babel({
@@ -57,7 +57,7 @@ import babel from '@artdeco/babel'
 })()
 ```
 ```
-@artdeco/babel called with example
+shmable called with example
 example
 ```
 

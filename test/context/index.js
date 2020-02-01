@@ -1,7 +1,7 @@
 import { join } from 'path'
 import { debuglog } from 'util'
 
-const LOG = debuglog('@artdeco/babel')
+const LOG = debuglog('shmable')
 
 /**
  * A testing context for the package.
