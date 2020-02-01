@@ -1,6 +1,6 @@
 {
   "name": "shmable",
-  "version": "0.0.0-pre",
+  "version": "1.0.0",
   "description": "Preview Of The Babel Bug.",
   "main": "build/index.js",
   "module": "src/index.js",
