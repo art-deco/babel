@@ -2,33 +2,15 @@
   "name": "@artdeco/babel",
   "version": "0.0.0-pre",
   "description": "Preview Of The Babel Bug.",
-  "main": "compile/index.js",
+  "main": "build/index.js",
   "module": "src/index.js",
   "scripts": {
-    "t": "zoroaster -a",
-    "test": "yarn t test/spec test/mask",
-    "spec": "yarn t test/spec",
-    "mask": "yarn t test/mask",
-    "lib": "depack src/depack.js -o compile/babel.js -a -c --source_map_include_content",
-    "stdlib": "depack src/stdlib.js -o stdlib/index.js -a -c -p --source_map_include_content",
-    "test-build": "ALAMODE_ENV=test-build yarn test",
-    "test-compile": "ALAMODE_ENV=test-compile yarn test",
-    "lint": "eslint .",
-    "doc": "doc -o README.md -n _babel -a -d",
-    "b": "ALAMODE_ENV=build alamode src -o build -i stdlib.js -s",
-    "d": "yarn-s template d1 externs",
-    "d1": "typal compile/index.js types/index.js -u -t types/index.xml",
-    "template": "typal compile/template.js -T compile/index.js -t types/api.xml",
-    "externs": "typal types/externs.js"
+    "b": "babel src -d build",
+    "doc": "doc -o README.md"
   },
   "files": [
     "build",
-    "src",
-    "compile",
-    "stdlib",
-    "types/externs.js",
-    "types/index.js",
-    "typedefs.json"
+    "src"
   ],
   "externs": "types/externs.js",
   "repository": {
@@ -46,13 +28,9 @@
     "url": "https://github.com/art-deco/babel/issues"
   },
   "homepage": "https://art-deco.github.io/nodetools/",
-  "devDependencies": {
-    "alamode": "^3.3.1",
-    "depack": "^1.1.0",
-    "documentary": "^1.35.9",
-    "erte": "^1.2.0",
-    "eslint-config-artdeco": "1.0.1",
-    "yarn-s": "1.2.2",
-    "zoroaster": "^4.1.2"
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.8.3"
   }
 }

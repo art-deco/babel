@@ -1,19 +1,42 @@
-import { c } from 'erte'
+import Stream, { Transform } from 'stream'
+import { join } from 'path'
 
 /**
- * @type {_babel.babel}
+ * Create a new instance of the class
  */
-export default async function babel(config = {}) {
-  const {
-    shouldRun = true,
-    text = '',
-  } = config
-  if (!shouldRun) return ''
-  console.log('@artdeco/babel called with %s', c(text, 'yellow'))
-  return text
+export default class Babel extends Stream {
+  /**
+   * Transpiles the source code.
+   * @param {string} path Path to the source code to transpile.
+   */
+  constructor(path) {
+    super()
+    this.path = join('example', path)
+    const stream = new Stream()
+    stream.pipe(new Transform())
+  }
 }
 
 /**
- * @suppress {nonStandardJsDocs}
- * @typedef {import('../types').babel} _babel.babel
+ * Returns whether the vesion is stable.
+ * @param {number} version The version to check.
  */
+export const stable = (version) => {
+  return version <= 7
+}
+
+/**
+ * Transpile the source code.
+ * @param {string} hello The code to transpile.
+ */
+export const transpile = (hello) => {
+  return hello + 'world'
+}
+
+/**
+ * Software for free that breaks JSDoc.
+ * @param {number} downloads How many downloads.
+ */
+export const shmable = (downloads) => {
+  return downloads - 1000000
+}
