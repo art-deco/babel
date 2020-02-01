@@ -30,7 +30,7 @@ class Babel extends _stream.default {
 
 }
 /**
- * Returns whether the vesion is stable.
+ * Returns whether the version is stable.
  * @param {number} version The version to check.
  */
 

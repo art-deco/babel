@@ -18,7 +18,7 @@ export default class Babel extends Stream {
 }
 
 /**
- * Returns whether the vesion is stable.
+ * Returns whether the version is stable.
  * @param {number} version The version to check.
  */
 export const stable = (version) => {

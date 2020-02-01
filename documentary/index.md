@@ -13,3 +13,21 @@ yarn add shmable
 %TOC%
 
 %~%
+
+## Source
+
+%EXAMPLE: src/index.js%
+
+%~%
+
+## Transpiled
+
+%EXAMPLE: build/index.js%
+
+%~%
+
+## Test
+
+%EXAMPLE: test/spec/default, ../../src => shmable%
+
+%~%
