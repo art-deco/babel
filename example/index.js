@@ -1,7 +1,7 @@
-import myNewPackage from '../src'
+import babel from '../src'
 
 (async () => {
-  const res = await myNewPackage({
+  const res = await babel({
     text: 'example',
   })
   console.log(res)

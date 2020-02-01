@@ -1,11 +1,11 @@
-# my-new-package
+# @artdeco/babel
 
-%NPM: my-new-package%
+%NPM: @artdeco/babel%
 
-`my-new-package` is {{ description }}
+`@artdeco/babel` is Preview Of The Babel Bug.
 
 ```sh
-yarn add my-new-package
+yarn add @artdeco/babel
 ```
 
 ## Table Of Contents

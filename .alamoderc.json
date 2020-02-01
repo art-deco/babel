@@ -20,9 +20,19 @@
       "import": {
         "stdlib": {
           "path": "stdlib",
-          "packages": ["argufy", "indicatrix", "usually", "erte"]
+          "packages": [
+            "argufy",
+            "indicatrix",
+            "usually",
+            "erte"
+          ]
         },
-        "alamodeModules": ["argufy", "indicatrix", "usually", "erte"]
+        "alamodeModules": [
+          "argufy",
+          "indicatrix",
+          "usually",
+          "erte"
+        ]
       }
     }
   }

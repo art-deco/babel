@@ -1,5 +1,5 @@
-## {{ create_date }}
+## 1 February 2020
 
 ### 0.0.0-pre
 
-- Create `{{ package-name }}` with _[`NodeTools`](https://art-deco.github.io/nodetools)_.
+- Create `@artdeco/babel` with _[`NodeTools`](https://art-deco.github.io/nodetools)_.

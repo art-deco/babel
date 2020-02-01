@@ -1,6 +1,6 @@
 import '../types/externs'
-const myNewPackage = require('./');
+const babel = require('./');
 
 module.exports = {
-  '_myNewPackage': myNewPackage,
+  '_babel': babel,
 }

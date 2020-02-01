@@ -5,26 +5,26 @@
 
 /* typal types/index.xml externs */
 /** @const */
-var _myNewPackage = {}
+var _babel = {}
 /**
  * Options for the program.
  * @record
  */
-_myNewPackage.Config
+_babel.Config
 /**
  * A boolean option. Default `true`.
  * @type {boolean|undefined}
  */
-_myNewPackage.Config.prototype.shouldRun
+_babel.Config.prototype.shouldRun
 /**
  * A text to return.
  * @type {string|undefined}
  */
-_myNewPackage.Config.prototype.text
+_babel.Config.prototype.text
 
 /* typal types/api.xml externs */
 /**
- * {{ description }}
- * @typedef {function(!_myNewPackage.Config): !Promise<string>}
+ * Preview Of The Babel Bug.
+ * @typedef {function(!_babel.Config): !Promise<string>}
  */
-_myNewPackage.myNewPackage
+_babel.babel

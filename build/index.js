@@ -1,22 +1,22 @@
 const { c } = require('../stdlib');
 
 /**
- * @type {_myNewPackage.myNewPackage}
+ * @type {_babel.babel}
  */
-async function myNewPackage(config = {}) {
+async function babel(config = {}) {
   const {
     shouldRun = true,
     text = '',
   } = config
   if (!shouldRun) return ''
-  console.log('my-new-package called with %s', c(text, 'yellow'))
+  console.log('@artdeco/babel called with %s', c(text, 'yellow'))
   return text
 }
 
 /**
  * @suppress {nonStandardJsDocs}
- * @typedef {import('../types').myNewPackage} _myNewPackage.myNewPackage
+ * @typedef {import('../types').babel} _babel.babel
  */
 
 
-module.exports = myNewPackage
+module.exports = babel

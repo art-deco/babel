@@ -3,16 +3,16 @@
 The package is available by importing its default function:
 
 ```js
-import myNewPackage from 'my-new-package'
+import babel from '@artdeco/babel'
 ```
 
 %~%
 
-<typedef method="myNewPackage">types/api.xml</typedef>
+<typedef method="babel">types/api.xml</typedef>
 
 <typedef>types/index.xml</typedef>
 
-%EXAMPLE: example, ../src => my-new-package%
+%EXAMPLE: example, ../src => @artdeco/babel%
 %FORK example%
 
 %~%

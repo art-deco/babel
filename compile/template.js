@@ -1,12 +1,12 @@
-const { _myNewPackage } = require('./mnp')
+const { _babel } = require('./babel')
 
 /**
- * @methodType {_myNewPackage.myNewPackage}
+ * @methodType {_babel.babel}
  */
-function myNewPackage(config) {
-  return _myNewPackage(config)
+function babel(config) {
+  return _babel(config)
 }
 
-module.exports = myNewPackage
+module.exports = babel
 
 /* typal types/index.xml namespace */

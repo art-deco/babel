@@ -1,6 +1,6 @@
-<types namespace="_myNewPackage">
-  <method name="myNewPackage" async return="string">
-    <arg type="!_myNewPackage.Config" name="config">The config.</arg>
-    {{ description }}
+<types namespace="_babel">
+  <method name="babel" async return="string">
+    <arg type="!_babel.Config" name="config">The config.</arg>
+    Preview Of The Babel Bug.
   </method>
 </types>

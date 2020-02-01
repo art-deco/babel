@@ -1,19 +1,19 @@
 import { c } from 'erte'
 
 /**
- * @type {_myNewPackage.myNewPackage}
+ * @type {_babel.babel}
  */
-export default async function myNewPackage(config = {}) {
+export default async function babel(config = {}) {
   const {
     shouldRun = true,
     text = '',
   } = config
   if (!shouldRun) return ''
-  console.log('my-new-package called with %s', c(text, 'yellow'))
+  console.log('@artdeco/babel called with %s', c(text, 'yellow'))
   return text
 }
 
 /**
  * @suppress {nonStandardJsDocs}
- * @typedef {import('../types').myNewPackage} _myNewPackage.myNewPackage
+ * @typedef {import('../types').babel} _babel.babel
  */
